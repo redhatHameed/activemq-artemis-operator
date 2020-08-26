@@ -70,3 +70,9 @@ rules:
   - watch
   - create
   - delete
+- apiGroups:
+  - apps
+  resources:
+  - deployments/finalizers
+  verbs:
+  - update
